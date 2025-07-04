@@ -48,37 +48,6 @@ The core logic of the interpreter is contained within a single OCaml file, likel
 
 ---
 
-## Getting Started
-
-To run this project, you'll need an OCaml development environment.
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/GiuseppeMuschetta/your-repo-name.git](https://github.com/GiuseppeMuschetta/your-repo-name.git)
-    cd your-repo-name
-    ```
-    (Remember to replace `your-repo-name` with the actual name of your repository).
-
-2.  **Compile the OCaml code:**
-    You can compile the OCaml file directly:
-    ```bash
-    ocamlc -o interpreter interpreter.ml
-    ```
-    (Assuming your main OCaml file is named `interpreter.ml`).
-
-3.  **Run the interpreter:**
-    You can then execute the compiled code:
-    ```bash
-    ./interpreter
-    ```
-    Alternatively, you can load it into the OCaml toplevel for interactive testing:
-    ```bash
-    ocaml
-    # #use "interpreter.ml";;
-    ```
-
----
-
 ## Usage Examples
 
 The `TEST` section in the provided code demonstrates various functionalities. Here are some examples of how to interact with the interpreter:
